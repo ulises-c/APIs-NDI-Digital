@@ -1,4 +1,5 @@
-aurora_device = AuroraDriver('/dev/ttyUSB0');
+% aurora_device = AuroraDriver('/dev/ttyUSB0');
+aurora_device = AuroraDriver('/dev/cu.usbserial-1320');
 serial_present = instrfind;
 
 if(~isempty(serial_present)) 
